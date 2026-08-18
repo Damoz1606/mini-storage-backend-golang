@@ -1,0 +1,3 @@
+test-coverage:
+    go test -mod=mod -tags=testcoverage -coverprofile="/test/coverage.out" ./internal/...
+	go tool cover -html=coverage.out -o coverage.html
