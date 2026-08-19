@@ -1,0 +1,8 @@
+linters:
+  enable:
+    - funlen
+
+linters-settings:
+  funlen:
+    lines: 70
+    statements: 40
